@@ -11,3 +11,14 @@ Always on the lookout for new challenges to yourself.
 My greatest strength is efficiency mixed with perseverance.
 My goal is to get as much knowledge about front-end development 
 as possible and apply it in practice, on real projects.
+### **Hard skills**
+- HTML
+- CSS
+- Git
+- GitHub
+
+### **Soft skills**
+- Adaptability
+- Patience
+- Accepting feedback
+- Teamwork
