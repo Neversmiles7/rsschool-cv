@@ -18,6 +18,7 @@ as possible and apply it in practice, on real projects.
 - CSS
 - Git
 - GitHub
+- SASS
 
 ### **Soft skills**
 - Adaptability
