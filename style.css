@@ -181,7 +181,27 @@ pre {
   padding-right: 20px;
 }
 .languages-list > li:not(:last-child) {
-    margin-bottom: 10px;
-    border-bottom: none;
+  margin-bottom: 10px;
+  border-bottom: none;
+}
+.footer-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.footer-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+  background-color: #e0e0e0;
+}
+
+.footer-item > a {
+    color: black;
 }
 
