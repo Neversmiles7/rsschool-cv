@@ -161,6 +161,8 @@ pre {
 .languages-list > li {
   display: flex;
   align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 .projects-list > li::before,
 .education-list > li::before,
@@ -180,5 +182,6 @@ pre {
 }
 .languages-list > li:not(:last-child) {
     margin-bottom: 10px;
+    border-bottom: none;
 }
 
