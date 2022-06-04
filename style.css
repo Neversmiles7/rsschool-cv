@@ -76,7 +76,49 @@ body {
 }
 
 .intr {
-    margin-top: 20px;
-    text-align: center;
-    
+  margin-top: 20px;
+  text-align: center;
 }
+
+.name {
+  font-size: 30px;
+}
+.contacts {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.contacts-list {
+  margin-top: 15px;
+}
+
+.contacts-list > li > a {
+  color: black;
+}
+.contacts-list > li:not(:first-child) {
+  padding-top: 20px;
+}
+.hard-skills {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.hard-list > li,
+.soft-list > li  {
+    display: flex;
+    align-items: center;
+  padding-top: 20px;
+}
+.hard-list > li::before,
+.soft-list > li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 10px;
+}
+.soft-skills {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
