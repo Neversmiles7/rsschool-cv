@@ -22,3 +22,15 @@ as possible and apply it in practice, on real projects.
 - Patience
 - Accepting feedback
 - Teamwork
+### **Code example**
+```
+let drawCats = function (howmanytimes) {
+    for (var i = 0; i< howmanytimes; i++) {
+    console.log(i+"=^.^=");
+    }
+    };
+    drawCats(33);
+```
+
+### **Work Experience**
+None
