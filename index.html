@@ -1,1 +1,166 @@
-<h1>CV</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation-menu">
+            <li class="navigation-menu_item">
+              <a href="#about" class="navigation-menu_itemlink">About</a>
+            </li>
+            <li class="navigation-menu_item">
+              <a href="#code" class="navigation-menu_itemlink">Code example</a>
+            </li>
+            <li class="navigation-menu_item">
+              <a href="#project" class="navigation-menu_itemlink">Projects</a>
+            </li>
+            <li class="navigation-menu_item">
+              <a href="#edu" class="navigation-menu_itemlink">Education</a>
+            </li>
+            <li class="navigation-menu_item">
+              <a href="#lang" class="navigation-menu_itemlink">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="left">
+          <div class="photo">
+            <img src="./ph.jpg" alt="Photo" width="370" />
+          </div>
+          <section class="intr">
+            <h1 class="name">Mihail Yarotsky</h1>
+            <p>Front end developer</p>
+          </section>
+          <section class="contacts">
+            <h2>Contacts:</h2>
+            <ul class="contacts-list">
+              <li><a href="tel:+79062062927">Phone: +79062062927</a></li>
+              <li>
+                <a href="mailto:xadtx1616@gmail.com"
+                  >E-mail: xadtx1616@gmail.com</a
+                >
+              </li>
+              <li><a href="https://discord.com">Discord: qwerty123#2893</a></li>
+              <li>
+                <a href="https://www.instagram.com/mi.hail6474/">Instagram</a>
+              </li>
+            </ul>
+          </section>
+          <section class="hard-skills">
+            <h2>Hard Skills</h2>
+            <ul class="hard-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git</li>
+              <li>Github</li>
+              <li>SASS</li>
+            </ul>
+          </section>
+          <section class="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul class="soft-list">
+              <li>Adaptability</li>
+              <li>Patience</li>
+              <li>Accepting feedback</li>
+              <li>Teamwork</li>
+            </ul>
+          </section>
+        </div>
+        <div class="content-section">
+          <section class="aboutme">
+            <h2 id="about" class="about-title">About</h2>
+            <p>
+              I am 30 years old. I am an engineer for the construction of
+              highways and airfields. Always on the lookout for new challenges
+              to yourself. My greatest strength is efficiency mixed with
+              perseverance. My goal is to get as much knowledge about front-end
+              development as possible and apply it in practice, on real
+              projects.
+            </p>
+          </section>
+          <section class="code-ex">
+            <h2 id="code" class="code-title">Code example</h2>
+            <pre> 
+            let drawCats = function (howmanytimes) {
+                for (var i = 0; i&lt; howmanytimes; i++) {
+                console.log(i+"=^.^=");
+                }
+                };
+                drawCats(33);
+              </pre
+            >
+          </section>
+          <section class="projects">
+            <h2 id="project" class="projects-title">Projects</h2>
+            <ul class="projects-list">
+              <li>
+                <a
+                  href="https://github.com/Neversmiles7/rsschool-cv/tree/master"
+                  >CV project</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="education">
+            <h2 id="edu" class="education-title">Education</h2>
+            <ul class="education-list">
+              <li>
+                Petrozavodsk State University - construction of roads and
+                airfields
+              </li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h2 id="lang" class="languages-title">Languages</h2>
+            <ul class="languages-list">
+              <li>
+                English level - A2 (some practice with native and non-native
+                speakers)
+              </li>
+              <li>Russian - native</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="https://github.com/Neversmiles7"
+              >My GitHub</a
+            >
+          </li>
+          <li class="footer-item"><a class="footer-link" href="">2022</a></li>
+          <li class="footer-item">
+            <a class="footer-link" href="https://rs.school/js/"><img src="./rs_school_js.svg" alt="rsschoollogo" width="90"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
+
